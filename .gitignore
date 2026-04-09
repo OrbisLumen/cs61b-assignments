@@ -3,8 +3,14 @@
 !**.java
 !**.txt
 !**.json
+!**.md
 !.expelimicate
 !.gitignore
+
+# keep notes folder
+!notes/
+!notes/**
+
 .class
 *.log
 *.ctxt
@@ -16,36 +22,3 @@
 *.tar.gz
 *.rar
 hs_err_pid*
-*~
-.fuse_hidden*
-.directory
-.Trash-*
-.nfs*
-*.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
-*.lnk
-/temp
