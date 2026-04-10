@@ -171,11 +171,23 @@
    
     Simply **copy the bits** (also called pass by value) to the new scope.
 
-### Array
+### Generics
 
-1. Arrays are also Objects.
-2. Create a new array :
+- Generics let classes, interfaces, and methods work with different data types while keeping type safety.
+- A generic type uses a placeholder like `T` for the actual type.
+
     ```java
-    int[] x = new int[]{0, 1, 2, 95, 4}
+    public class Box<T> {
+        private T item;
+
+        public Box(T i) {
+            item = i;
+        }
+
+        public T get() {
+            return item;
+        }
+    }
     ```
-3. Array's length cannot be changed.
+
+
