@@ -171,6 +171,25 @@
    
     Simply **copy the bits** (also called pass by value) to the new scope.
 
+### Generics
+
+- Generics let classes, interfaces, and methods work with different data types while keeping type safety.
+- A generic type uses a placeholder like `T` for the actual type.
+
+    ```java
+    public class Box<T> {
+        private T item;
+
+        public Box(T i) {
+            item = i;
+        }
+
+        public T get() {
+            return item;
+        }
+    }
+    ```
+
 ### Array
 
 1. Arrays are also Objects.

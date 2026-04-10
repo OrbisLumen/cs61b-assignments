@@ -2,9 +2,7 @@
 
 ## Linked Data Structures
 
-### IntList
-
-1. Basic Stucture
+1. IntNode (Basic Structure)
 
     ```java
     public class IntNode {
@@ -18,10 +16,31 @@
         }
     }
     ```
+2. Generics List
 
-2. SSList
-    
-    [SSlist](./Blocks/SSlist.md)
-    
-    *SLList class acts as a middle man between user and raw data structure.*
+    - Using `Generics` to build list
 
+3. SLList (Singly Linked List) [(Here is the code)](./Blocks/SLList.md)
+   
+    ```
+    (sentinel)
+    +--------+     +--------+     +--------+     +--------+
+    |   0    | --> |  item  | --> |  item  | --> |  item  | --> null
+    +--------+     +--------+     +--------+     +--------+
+    ```
+    - Promotions :
+      - `size`
+      - `sentinel`
+  
+4. DLList (Doubly Linked List) (Circular Sentinel)
+    
+    ```
+        +--------+      +--------+      +--------+      +--------+
+        |sentinel| <--> |  item  | <--> |  item  | <--> |  item  |
+        +--------+      +--------+      +--------+      +--------+
+            ^                                               ^
+            |_______________________________________________|
+    ```
+
+    - Promotions :
+       - `last` (quicker access)
