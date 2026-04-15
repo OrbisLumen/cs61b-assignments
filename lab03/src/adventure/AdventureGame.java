@@ -66,7 +66,6 @@ public class AdventureGame {
         }
         return null;
     }
-
     /**
      * driving function of game.
      * Plays until the current stage has no responses, then ends.

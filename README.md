@@ -4,7 +4,9 @@
 
 CS61B 2024 Spring (Lecture) -> Notes, Lec
 
-CS61B 2024 Spring (Assignments) -> HW, LAB, Project
+CS61B 2024 Spring (Assignments) -> HW, LAB, Project 
+
+(24 HW0 HW1 LAB0 LAB1 Proj0 not finished)
 
 ## Overview
 
